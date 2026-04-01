@@ -1,4 +1,4 @@
-package thd.game.base;
+package thd.gameobjects.base;
 
 public class Position {
     private double x;

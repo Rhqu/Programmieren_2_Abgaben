@@ -1,6 +1,8 @@
-package thd.gameobjects.moveable;
+package thd.gameobjects.movable;
+
 import thd.gameobjects.base.Position;
 import thd.game.utilities.GameView;
+
 import java.awt.*;
 
 public class Ufo {

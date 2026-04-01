@@ -1,4 +1,5 @@
-package thd.gameobjects.unmoveable;
+package thd.gameobjects.unmovable;
+
 import thd.gameobjects.base.Position;
 import thd.game.utilities.GameView;
 

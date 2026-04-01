@@ -1,6 +1,7 @@
 package thd.game.bin;
 
-import game.GameViewManager;
+import thd.game.managers.GameManager;
+import thd.game.managers.GameViewManager;
 
 public class StartGame {
     public static void main(String[] args) {
