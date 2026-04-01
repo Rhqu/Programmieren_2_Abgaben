@@ -1,5 +1,6 @@
-package game;
-
+package thd.gameobjects.moveable;
+import thd.gameobjects.base.Position;
+import thd.game.utilities.GameView;
 import java.awt.*;
 
 public class Ufo {
@@ -12,7 +13,7 @@ public class Ufo {
     public Ufo(GameView gameView) {
         this.gameView = gameView;
         this.position = new Position(0, (double) GameView.HEIGHT / 2);
-        speedInPixel = 3;
+        speedInPixel = 6;
         size = 30;
         rotation = 0;
     }
@@ -23,7 +24,7 @@ public class Ufo {
     }
 
     public void updatePosition() {
-        this.position.right();
+        this.position.right(speedInPixel);
         this.rotation++;
     }
 

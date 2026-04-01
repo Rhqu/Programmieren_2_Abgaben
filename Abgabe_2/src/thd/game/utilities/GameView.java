@@ -1,4 +1,4 @@
-package game;
+package thd.game.utilities;
 
 import javax.imageio.ImageIO;
 import javax.sound.sampled.*;

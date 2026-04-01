@@ -1,4 +1,6 @@
-package game;
+package thd.gameobjects.unmoveable;
+import thd.gameobjects.base.Position;
+import thd.game.utilities.GameView;
 
 import java.awt.*;
 
@@ -13,12 +15,12 @@ public class ScorePanel {
 
     public ScorePanel(GameView gameView) {
         this.gameView = gameView;
-        this.position = new Position(1100, 650);
+        double width = 150;
+        double height = 33;
+        this.position = new Position(GameView.WIDTH - width + 50, 2 * height);
         speedInPixel = 3;
         size = 30;
         rotation = 0;
-        width = 150;
-        height = 33;
     }
 
     @Override
@@ -33,11 +35,8 @@ public class ScorePanel {
     }
 
     public void addToCanvas() {
-        gameView.addRectangleToCanvas(position.getX(), position.getY(), width, height, 0, true, Color.yellow);
-        gameView.addRectangleToCanvas(position.getX(), position.getY(), width - size, height, 0, true, Color.green);
-        gameView.addRectangleToCanvas(position.getX(), position.getY(), width, height, 5, false, Color.white);
-        gameView.addTextToCanvas("Objekt 2", position.getX(), position.getY(),
-                size, true, Color.blue, 0);
+        gameView.addTextToCanvas("Objekt 3", position.getX(), position.getY(),
+                size, true, Color.white, 90);
     }
 
 }
