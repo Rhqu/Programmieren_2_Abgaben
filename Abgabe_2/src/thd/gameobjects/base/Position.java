@@ -1,77 +1,151 @@
 package thd.gameobjects.base;
 
+import thd.game.utilities.GameView;
+
+/**
+ * Represents a position on the {@link GameView} window. The game window has a
+ resolution
+ * of {@value GameView#WIDTH} x {@value GameView#HEIGHT} pixles.
+ *
+ * @see GameView
+ */
 public class Position {
+
     private double x;
     private double y;
 
+    /**
+     * Creates a position on (0, 0).
+     */
+    public Position() {
+        this(0, 0);
+    }
+
+    /**
+     * Creates a position with the coordinates of the given position.
+     *
+     * @param other Another position.
+     */
+    public Position(Position other) {
+        this(other.x, other.y);
+    }
+
+    /**
+     * Creates a position on (x, y).
+     *
+     * @param x X-coordinate on the window.
+     * @param y Y-coordinate on the window.
+     */
     public Position(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public Position() {
-        this(0, 0);
-    }
-
-    public Position(Position other) {
-        this(other.getX(), other.getY());
-    }
-
-    public void left() {
-        this.x--;
-    }
-
-    public void left(double pixel) {
-        this.x -= pixel;
-    }
-
-
-    public void right() {
-        this.x++;
-    }
-
-    public void right(double pixel) {
-        this.x += pixel;
-    }
-
-    public void up() {
-        this.y--;
-    }
-
-    public void up(double pixel) {
-        this.y -= pixel;
-    }
-
-    public void down() {
-        this.y++;
-    }
-
-    public void down(double pixel) {
-        this.y += pixel;
-    }
-
+    /**
+     * Gets x coordinate.
+     *
+     * @return x coordinate.
+     */
     public double getX() {
         return x;
     }
 
+    /**
+     * Gets y coordinate.
+     *
+     * @return y coordinate.
+     */
     public double getY() {
         return y;
     }
 
+    /**
+     * Updates this position to the coordinates of the given position.
+     *
+     * @param other Another position.
+     */
+    public void updateCoordinates(Position other) {
+        x = other.x;
+        y = other.y;
+    }
 
+    /**
+     * Updates this position to the coordinates of the new position.
+     *
+     * @param x X-coordinate on the window.
+     * @param y Y-coordinate on the window.
+     */
     public void updateCoordinates(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public void updateCoordinates(Position other) {
-        this.x = other.getX();
-        this.y = other.getY();
+    /**
+     * One pixel to the right.
+     */
+    public void right() {
+        x++;
+    }
+
+    /**
+     * To the right by the given number of pixels.
+     *
+     * @param pixel Number of pixels.
+     */
+    public void right(double pixel) {
+        x += pixel;
+    }
+
+    /**
+     * One pixel to the left.
+     */
+    public void left() {
+        x--;
+    }
+
+    /**
+     * To the left by the given number of pixels.
+     *
+     * @param pixel Number of pixels.
+     */
+    public void left(double pixel) {
+        x -= pixel;
+    }
+
+    /**
+     * One pixel upwards.
+     */
+    public void up() {
+        y--;
+    }
+
+    /**
+     * Upwards by the given number of pixels.
+     *
+     * @param pixel Number of pixels.
+     */
+    public void up(double pixel) {
+        y -= pixel;
+    }
+
+    /**
+     * One pixel downwards.
+     */
+    public void down() {
+        y++;
+    }
+
+    /**
+     * Downwards by the given number of pixels.
+     *
+     * @param pixel Number of pixels.
+     */
+    public void down(double pixel) {
+        y += pixel;
     }
 
     @Override
     public String toString() {
-        return String.format("Position (%d, %d)", (int) Math.round(x), (int) Math.round(y));
+        return "Position (" + (int) Math.round(x) + ", " + (int) Math.round(y) + ")";
     }
-
 }

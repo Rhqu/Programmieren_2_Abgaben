@@ -3,7 +3,9 @@ package thd.gameobjects.movable;
 import thd.gameobjects.base.Position;
 import thd.game.utilities.GameView;
 
-import java.awt.*;
+/**
+ * Represents the Ufo game object that moves across the screen.
+ */
 
 public class Ufo {
     GameView gameView;
@@ -11,6 +13,11 @@ public class Ufo {
     double speedInPixel;
     double size;
     double rotation;
+
+    /**
+     * Creates a new Ufo with the given GameView.
+     * @param gameView the GameView used to display this object.
+     */
 
     public Ufo(GameView gameView) {
         this.gameView = gameView;
@@ -25,14 +32,21 @@ public class Ufo {
         return "Ufo: " + position;
     }
 
+    /**
+     * Updates the position of this game object.
+     */
+
     public void updatePosition() {
         this.position.right(speedInPixel);
         this.rotation++;
     }
 
+    /**
+     * Adds this game object to the canvas of the game view.
+     */
+
     public void addToCanvas() {
-        gameView.addTextToCanvas("Objekt 1", position.getX(), position.getY(),
-                size, true, Color.YELLOW, rotation);
+        gameView.addImageToCanvas("mario.png", position.getX(), position.getY(), 1, rotation);
     }
 
 }

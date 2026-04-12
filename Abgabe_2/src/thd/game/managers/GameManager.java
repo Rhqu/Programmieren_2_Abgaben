@@ -5,11 +5,20 @@ import thd.gameobjects.movable.Ufo;
 import thd.gameobjects.movable.UfoShot;
 import thd.gameobjects.unmovable.ScorePanel;
 
+/**
+ * Manages the game objects and game logic.
+ */
+
 public class GameManager {
     private GameView gameView;
     private Ufo ufo;
     private UfoShot ufoShot;
     private ScorePanel scorePanel;
+
+    /**
+     * Creates a new GameManager with the given GameView.
+     * @param gameView the GameView used to display game objects.
+     */
 
     public GameManager(GameView gameView) {
         this.gameView = gameView;

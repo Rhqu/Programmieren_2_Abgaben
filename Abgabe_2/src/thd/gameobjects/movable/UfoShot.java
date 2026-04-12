@@ -3,7 +3,9 @@ package thd.gameobjects.movable;
 import thd.gameobjects.base.Position;
 import thd.game.utilities.GameView;
 
-import java.awt.*;
+/**
+ * Represents the UfoShot game object that moves across the screen.
+ */
 
 public class UfoShot {
     GameView gameView;
@@ -13,6 +15,12 @@ public class UfoShot {
     double rotation;
     double width;
     double height;
+
+    /**
+     * Creates a new UfoShot with the given GameView.
+     *
+     * @param gameView the GameView used to display this object.
+     */
 
     public UfoShot(GameView gameView) {
         this.gameView = gameView;
@@ -29,17 +37,20 @@ public class UfoShot {
         return "Ufo: " + position;
     }
 
+    /**
+     * Updates the position of this game object.
+     */
 
     public void updatePosition() {
         this.position.left(speedInPixel);
     }
 
+    /**
+     * Adds this game object to the canvas of the game view.
+     */
+
     public void addToCanvas() {
-        gameView.addRectangleToCanvas(position.getX(), position.getY(), width, height, 0, true, Color.YELLOW);
-        gameView.addRectangleToCanvas(position.getX(), position.getY(), width - size, height, 0, true, Color.GREEN);
-        gameView.addRectangleToCanvas(position.getX(), position.getY(), width, height, 5, false, Color.WHITE);
-        gameView.addTextToCanvas("Objekt 2", position.getX(), position.getY(),
-                size, true, Color.blue, 0);
+        gameView.addBlockImageToCanvas(StarBlockImages.STAR, position.getX(), position.getY(), 4, 0);
     }
 
 }

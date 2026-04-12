@@ -5,6 +5,10 @@ import thd.game.utilities.GameView;
 
 import java.awt.*;
 
+/**
+ * Represents the score panel that displays the current score.
+ */
+
 public class ScorePanel {
     GameView gameView;
     Position position;
@@ -14,11 +18,17 @@ public class ScorePanel {
     double width;
     double height;
 
+    /**
+     * Creates a new ScorePanel with the given GameView.
+     *
+     * @param gameView the GameView used to display this object.
+     */
+
     public ScorePanel(GameView gameView) {
         this.gameView = gameView;
         double width = 150;
         double height = 33;
-        this.position = new Position(GameView.WIDTH - width + 50, 2 * height);
+        this.position = new Position(GameView.WIDTH - width, 0);
         speedInPixel = 3;
         size = 30;
         rotation = 0;
@@ -29,15 +39,22 @@ public class ScorePanel {
         return "Ufo: " + position;
     }
 
+    /**
+     * Updates the position of this game object.
+     */
 
     public void updatePosition() {
         this.position.right();
         this.rotation++;
     }
 
+    /**
+     * Adds this game object to the canvas of the game view.
+     */
+
     public void addToCanvas() {
-        gameView.addTextToCanvas("Objekt 3", position.getX(), position.getY(),
-                size, true, Color.white, 90);
+        gameView.addTextToCanvas("1500", position.getX(), position.getY(),
+                size, true, Color.white, 0);
     }
 
 }
