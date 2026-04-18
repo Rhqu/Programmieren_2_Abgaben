@@ -8,13 +8,13 @@ import thd.game.utilities.GameView;
  */
 
 public class UfoShot {
-    GameView gameView;
-    Position position;
-    double speedInPixel;
-    double size;
-    double rotation;
-    double width;
-    double height;
+    private final GameView gameView;
+    private final Position position;
+    private final double speedInPixel;
+    private final double size;
+    private double rotation;
+    private final double width;
+    private final double height;
 
     /**
      * Creates a new UfoShot with the given GameView.

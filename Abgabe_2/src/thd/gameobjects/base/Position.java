@@ -3,9 +3,10 @@ package thd.gameobjects.base;
 import thd.game.utilities.GameView;
 
 /**
- * Represents a position on the {@link GameView} window. The game window has a
- resolution
- * of {@value GameView#WIDTH} x {@value GameView#HEIGHT} pixles.
+ * Represents a position on the {@link GameView} window.
+ * The game window has a fixed resolution of 1280 x 720 pixels assignable in the class.
+ * The x-axis ranges from 0 (left) to 1280 (right),
+ * the y-axis ranges from 0 (top) to 720 (bottom).
  *
  * @see GameView
  */

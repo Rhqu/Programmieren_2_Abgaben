@@ -10,14 +10,12 @@ import java.awt.*;
  */
 
 public class ScorePanel {
-    GameView gameView;
-    Position position;
-    double speedInPixel;
-    double size;
-    double rotation;
-    double width;
-    double height;
-
+    private final GameView gameView;
+    private final Position position;
+    private final double size;
+    private double rotation;
+    private final double width;
+    private final double height;
     /**
      * Creates a new ScorePanel with the given GameView.
      *
@@ -26,10 +24,9 @@ public class ScorePanel {
 
     public ScorePanel(GameView gameView) {
         this.gameView = gameView;
-        double width = 150;
-        double height = 33;
+        width = 150;
+        height = 33;
         this.position = new Position(GameView.WIDTH - width, 0);
-        speedInPixel = 3;
         size = 30;
         rotation = 0;
     }
@@ -43,7 +40,7 @@ public class ScorePanel {
      * Updates the position of this game object.
      */
 
-    public void updatePosition() {
+    private void updatePosition() {
         this.position.right();
         this.rotation++;
     }

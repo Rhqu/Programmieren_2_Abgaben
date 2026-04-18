@@ -9,14 +9,15 @@ import thd.gameobjects.unmovable.ScorePanel;
  * Manages the game objects and game logic.
  */
 
-public class GameManager {
-    private GameView gameView;
+class GameManager {
+    private final GameView gameView;
     private Ufo ufo;
     private UfoShot ufoShot;
     private ScorePanel scorePanel;
 
     /**
      * Creates a new GameManager with the given GameView.
+     *
      * @param gameView the GameView used to display game objects.
      */
 

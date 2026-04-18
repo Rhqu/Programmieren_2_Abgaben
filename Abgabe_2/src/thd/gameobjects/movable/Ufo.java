@@ -8,20 +8,24 @@ import thd.game.utilities.GameView;
  */
 
 public class Ufo {
-    GameView gameView;
-    Position position;
-    double speedInPixel;
-    double size;
-    double rotation;
-
+    private final GameView gameView;
+    private final Position position;
+    private final double speedInPixel;
+    private final double size;
+    private double rotation;
+    private final double height;
+    private final double width;
     /**
      * Creates a new Ufo with the given GameView.
+     *
      * @param gameView the GameView used to display this object.
      */
 
     public Ufo(GameView gameView) {
         this.gameView = gameView;
-        this.position = new Position(0, (double) GameView.HEIGHT / 2);
+        height = 0;
+        width = (double) GameView.HEIGHT / 2;
+        this.position = new Position(height, width);
         speedInPixel = 6;
         size = 30;
         rotation = 0;
