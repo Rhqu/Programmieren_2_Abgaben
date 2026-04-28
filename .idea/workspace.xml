@@ -4,7 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6720de3-f25b-4ab9-aab8-779791cdb4cb" name="Changes" comment="" />
+    <list default="true" id="d6720de3-f25b-4ab9-aab8-779791cdb4cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/base/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/base/MovementPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/movable/FollowerBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/movable/PatroolingMovementPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/movable/QuadraticMovementPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/movable/RandomBall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/movable/RandomMovementPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/Abgabe_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/resources/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/resources/coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/resources/droidsansmono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/resources/lucky_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/resources/mario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/resources/mario_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/resources/plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/resources/turtle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/game/bin/StartGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/game/managers/GameManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/game/managers/GameObjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/game/managers/GameViewManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/game/managers/UserControlledGameObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/game/utilities/GameView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/base/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/base/MovementPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/base/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/movable/Goomba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/movable/Koopa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/movable/Mario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/movable/PatroolingMovementPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/movable/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/movable/StarBlockImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/unmovable/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/unmovable/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/unmovable/LuckyBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/unmovable/Mushroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/unmovable/UsedBrick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/resources/bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/resources/bullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/resources/coin.png" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/resources/coin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/resources/fireball.png" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/resources/fireball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/resources/goomba.png" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/resources/goomba.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/resources/koopa.png" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/resources/koopa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/resources/lucky_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/resources/lucky_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/resources/mario.png" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/resources/mario.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/resources/plant.png" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/resources/plant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/resources/turtle.png" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/resources/turtle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/thd/game/bin/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/game/bin/StartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/thd/game/managers/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/game/managers/GameManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/thd/game/managers/GameViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/game/managers/GameViewManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/thd/game/utilities/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/game/utilities/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/thd/gameobjects/base/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/base/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/thd/gameobjects/movable/StarBlockImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/movable/StarBlockImages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/thd/gameobjects/movable/Ufo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/movable/Mario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/thd/gameobjects/movable/UfoShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/movable/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_2/src/thd/gameobjects/unmovable/ScorePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_3/src/thd/gameobjects/unmovable/ScorePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programmierung_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programmierung_2.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +76,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rhqu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rhqu/Programmieren_2_Abgaben.git&quot;,
+    &quot;accountId&quot;: &quot;27e1335f-9ea9-424a-bf52-a88397f6bdd2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -31,28 +105,60 @@
     "Application.StartGame.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mantissa/IdeaProjects/Programmieren_2_Abgaben/Abgabe_4/src/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "onboarding.tips.debug.path": "/home/mantissa/IdeaProjects/Programmieren_2_Abgaben/Abgabe_4/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Abgabe_4/src/resources" />
+      <recent name="$PROJECT_DIR$/Abgabe_4" />
+      <recent name="$PROJECT_DIR$/Abgabe_3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Abgabe_3" />
+      <recent name="$PROJECT_DIR$/]" />
+      <recent name="$PROJECT_DIR$/]\" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Programmierung_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Programmierung_2" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
       </set>
     </attachedChunks>
   </component>
@@ -64,11 +170,36 @@
       <option name="presentableId" value="Default" />
       <updated>1774357498534</updated>
       <workItem from="1774357499501" duration="8129000" />
+      <workItem from="1776613362081" duration="16378000" />
+      <workItem from="1776769933964" duration="82000" />
+      <workItem from="1777207791905" duration="1234000" />
+      <workItem from="1777287394820" duration="27964000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Abgabe_3/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Abgabe_4/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Abgabe_4/src/thd/game/managers/GameObjectManager.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
