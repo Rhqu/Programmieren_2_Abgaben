@@ -14,6 +14,11 @@ public class Mario extends GameObject {
     private static final double JUMP_SPEED = -10;
     private static final double GRAVITY = 0.5;
     private static final double MAX_FALL_SPEED = 10;
+    private static final double RUN_SPEED = 2;
+    private static final double MAX_RUN_SPEED = 5;
+    private static final double FRICTION = 0.4;
+    private boolean runningRight;
+    private boolean runningLeft;
     private final double groundY;
     private double verticalSpeed;
     private boolean onGround;
@@ -29,7 +34,7 @@ public class Mario extends GameObject {
         super(gameView);
         height = 0;
         width = (double) GameView.HEIGHT / 2;
-        speedInPixel = 6;
+        speedInPixel = RUN_SPEED;
         size = 30;
         rotation = 0;
         shotInProgress = false;
@@ -60,14 +65,14 @@ public class Mario extends GameObject {
      * Moves Mario to the left.
      */
     public void left() {
-        position.left(speedInPixel);
+        runningLeft = true;
     }
 
     /**
      * Moves Mario to the right.
      */
     public void right() {
-        position.right(speedInPixel);
+        runningRight = true;
     }
 
     /**
@@ -88,7 +93,9 @@ public class Mario extends GameObject {
     }
 
     /**
-     * Jumping logic, scans for input in {@link #jump()}.
+     * Movement logic, scans for input in {@link #jump()} and in
+     * {@link #right()} and {@link #left()} Uses acceleration and deceleration with
+     * parameters defined as constants.
      */
     @Override
     public void updatePosition() {
@@ -102,6 +109,27 @@ public class Mario extends GameObject {
                 position.updateCoordinates(position.getX(), groundY);
                 onGround = true;
                 verticalSpeed = 0;
+            }
+        }
+
+        if (runningRight) {
+            speedInPixel += FRICTION;
+            if (speedInPixel > MAX_RUN_SPEED) {
+                speedInPixel = MAX_RUN_SPEED;
+            }
+            position.right(speedInPixel);
+            runningRight = false;
+        } else if (runningLeft) {
+            speedInPixel += FRICTION;
+            if (speedInPixel > MAX_RUN_SPEED) {
+                speedInPixel = MAX_RUN_SPEED;
+            }
+            position.left(speedInPixel);
+            runningLeft = false;
+        } else {
+            speedInPixel -= FRICTION;
+            if (speedInPixel < 0){
+                speedInPixel = 0;
             }
         }
     }
