@@ -30,7 +30,7 @@ public class Koopa extends GameObject {
      */
     @Override
     public void updateStatus() {
-        if (position.getX() > 1280 || position.getY() > 720 || position.getX() < 0 || position.getY() < 0) {
+        if (position.getX() > GameView.WIDTH || position.getY() > GameView.HEIGHT || position.getX() < 0 || position.getY() < 0) {
             gamePlayManager.destroyGameObject(this);
         }
     }

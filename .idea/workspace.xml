@@ -5,50 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6720de3-f25b-4ab9-aab8-779791cdb4cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/blast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/brick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/brick_after_lucky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/coin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/droidsansmono.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/goomba_resized.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/koopa_resized.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/lucky_block.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/mario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/mario_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/mushroom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/plant.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/resources/turtle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/game/bin/StartGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/game/managers/GameManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/game/managers/GameObjectManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/game/managers/GamePlayManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/game/managers/GameViewManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/game/managers/TooManyGameObjectsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/game/managers/UserControlledGameObjectPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/game/utilities/GameView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/base/GameObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/base/MainCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/base/MovementPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/base/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Goomba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Koopa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Mario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/MarioShot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/PatroolingMovementPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Star.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/StarBlockImages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/unmovable/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/unmovable/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/unmovable/LuckyBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/unmovable/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/unmovable/UsedBrick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/movable/Mario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_4/src/thd/gameobjects/movable/Mario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmierung_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programmierung_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/base/MainCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/base/MainCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Goomba.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Goomba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Koopa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Koopa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Mario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Mario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/MarioShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/MarioShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/bin/StartGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/bin/StartGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameObjectManager.class" afterDir="false" />
@@ -101,14 +65,13 @@
       <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/LuckyBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/LuckyBlock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/Mushroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/Mushroom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/UsedBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/UsedBrick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/resources/coin.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/resources/coin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/resources/fireball.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/resources/goomba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/resources/koopa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/resources/lucky_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/resources/lucky_block.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/bin/StartGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/bin/StartGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameObjectManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GamePlayManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GamePlayManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameViewManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/TooManyGameObjectsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/TooManyGameObjectsException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/UserControlledGameObjectPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/UserControlledGameObjectPool.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Canvas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$ClipPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$ClipPool.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Element.class" afterDir="false" />
@@ -143,17 +106,22 @@
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Version.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Version.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/GameObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/MainCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/MainCharacter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/MovementPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/MovementPattern.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/FollowerBall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Goomba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Goomba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Koopa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Koopa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Mario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Mario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/PatroolingMovementPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/PatroolingMovementPattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/QuadraticMovementPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/RandomBall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/RandomMovementPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/MarioShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/MarioShot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/PatroolingMovementPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Square.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Star.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/StarBlockImages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/StarBlockImages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/ScorePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Block.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Coin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Coin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/LuckyBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/LuckyBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Mushroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Mushroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/UsedBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/UsedBrick.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,36 +158,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.PositionTest.executor": "Run",
-    "Application.StartGame.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mantissa/IdeaProjects/Programmierung_2/Abgabe_5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/mantissa/IdeaProjects/Programmieren_2_Abgaben/Abgabe_4/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PositionTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StartGame.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mantissa/IdeaProjects/Programmierung_2/Abgabe_5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/mantissa/IdeaProjects/Programmieren_2_Abgaben/Abgabe_4/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Abgabe_5" />
@@ -253,6 +221,7 @@
       <workItem from="1776769933964" duration="82000" />
       <workItem from="1777207791905" duration="1234000" />
       <workItem from="1777287394820" duration="27964000" />
+      <workItem from="1777922419553" duration="531000" />
     </task>
     <servers />
   </component>

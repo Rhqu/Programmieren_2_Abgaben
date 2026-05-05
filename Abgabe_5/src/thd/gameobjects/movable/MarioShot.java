@@ -9,6 +9,7 @@ import thd.gameobjects.base.GameObject;
  */
 class MarioShot extends GameObject {
     private Mario mario;
+    private static final int SHOT_OFFSET_FROM_MARIO = 15;
 
     /**
      * Creates a new GameObject.
@@ -38,6 +39,6 @@ class MarioShot extends GameObject {
 
     @Override
     public void addToCanvas() {
-        gameView.addImageToCanvas("blast.png", position.getX() + 15, position.getY() + 15, 2, 0);
+        gameView.addImageToCanvas("blast.png", position.getX() + SHOT_OFFSET_FROM_MARIO, position.getY() + SHOT_OFFSET_FROM_MARIO, 2, 0);
     }
 }

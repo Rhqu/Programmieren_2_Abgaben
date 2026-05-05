@@ -36,10 +36,7 @@ public class Goomba extends GameObject {
             targetPosition.updateCoordinates(patroolingMovementPattern.nextPosition());
         }
     }
-
-    public void updatePosition(Position position) {
-        this.position.updateCoordinates(position);
-    }
+    
 
     @Override
     public void addToCanvas() {

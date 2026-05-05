@@ -47,7 +47,7 @@ public class Mario extends GameObject implements MainCharacter {
      */
     @Override
     public void addToCanvas() {
-        gameView.addImageToCanvas("mario.png", position.getX(), position.getY(), 0.4, rotation);
+        gameView.addImageToCanvas("mario.png", position.getX(), position.getY(), IMAGE_SCALE, rotation);
     }
 
     /**
