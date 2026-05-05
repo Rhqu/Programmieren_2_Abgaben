@@ -46,7 +46,7 @@ public class GameObjectManager {
         removeFromGameObjects();
         addToGameObjects();
         if (gameObjects.size() > MAXIMUM_NUMBER_OF_GAME_OBJECTS) {
-            throw new TooManyGameObjectsException("To many objects have been created, this will cause a slowdown, Object Amoung: ", MAXIMUM_NUMBER_OF_GAME_OBJECTS);
+            throw new TooManyGameObjectsException("To many objects have been created, this will cause a slowdown, Object Amoung: " + MAXIMUM_NUMBER_OF_GAME_OBJECTS);
         }
     }
 
