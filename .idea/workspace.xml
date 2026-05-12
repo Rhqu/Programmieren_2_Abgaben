@@ -5,123 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6720de3-f25b-4ab9-aab8-779791cdb4cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/Abgabe_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/blast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/brick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/brick_after_lucky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/coin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/goomba_resized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/koopa_resized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/lucky_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/mario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/mario_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/mushroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/resources/turtle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/game/bin/StartGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/game/managers/CollisionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/game/managers/GameManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/game/managers/GameObjectManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/game/managers/GamePlayManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/game/managers/GameViewManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/game/managers/TooManyGameObjectsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/game/managers/UserControlledGameObjectPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/game/utilities/GameView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/base/CollidingGameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/base/GameObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/base/MainCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/base/MovementPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/base/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/base/SpritesAlignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/movable/Goomba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/movable/Koopa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/movable/Mario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/movable/MarioShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/movable/PatrollingMovementPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/movable/Star.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/movable/StarBlockImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/unmovable/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/unmovable/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/unmovable/LuckyBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/unmovable/Mushroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/unmovable/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abgabe_6/src/thd/gameobjects/unmovable/UsedBrick.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/base/MainCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/base/MainCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Goomba.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Goomba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Koopa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Koopa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Mario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Mario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/MarioShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/MarioShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Abgabe_5/src/thd/gameobjects/movable/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/bin/StartGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/bin/StartGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameObjectManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/GameViewManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/UserControlledGameObjectPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/managers/UserControlledGameObjectPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Canvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$ClipPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$ClipPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Element.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Frame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Frame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Frame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Frame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Frame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Frame$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Frame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$GameLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$GameLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$ImageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$ImageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Keyboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Mouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Mouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Oval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Oval.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$PaintingPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$PaintingPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$PolyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$PolyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Polygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Polygon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$PrintObject$PrintType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$PrintObject$PrintType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$PrintObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$PrintObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Sound.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Sound.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$SoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$SoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Statistic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Statistic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$StatisticBox$Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$StatisticBox$Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$StatisticBox$Title.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$StatisticBox$Title.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$StatisticBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$StatisticBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$SwingAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$SwingAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Terminal$Resolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Terminal$Resolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Terminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$TestEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$TestEnvironment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Tools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Version.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView$Version.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/game/utilities/GameView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/base/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/base/GameObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/base/MovementPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/base/MovementPattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/base/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/base/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/Goomba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/Goomba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/Koopa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/Koopa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/Mario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/Mario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/PatroolingMovementPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/PatroolingMovementPattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/Star.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/StarBlockImages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/movable/StarBlockImages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/Coin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/Coin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/LuckyBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/LuckyBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/Mushroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/Mushroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/UsedBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Abgabe_4/thd/gameobjects/unmovable/UsedBrick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/bin/StartGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/bin/StartGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameObjectManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameObjectManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GamePlayManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GamePlayManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/GameViewManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/TooManyGameObjectsException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/TooManyGameObjectsException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/UserControlledGameObjectPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/managers/UserControlledGameObjectPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Canvas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Canvas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$ClipPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$ClipPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Element.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Frame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Frame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Frame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Frame$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Frame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Frame$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Frame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$GameLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$GameLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$ImageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$ImageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Keyboard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Mouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Mouse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Oval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Oval.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$PaintingPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$PaintingPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$PolyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$PolyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Polygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Polygon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$PrintObject$PrintType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$PrintObject$PrintType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$PrintObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$PrintObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Sound.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Sound.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$SoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$SoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Statistic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Statistic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$StatisticBox$Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$StatisticBox$Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$StatisticBox$Title.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$StatisticBox$Title.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$StatisticBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$StatisticBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$SwingAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$SwingAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Terminal$Resolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Terminal$Resolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Terminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Terminal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$TestEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$TestEnvironment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Tools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Version.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView$Version.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/game/utilities/GameView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/GameObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/GameObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/MainCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/MainCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/MovementPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/MovementPattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/base/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Goomba.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Goomba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Koopa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Koopa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Mario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Mario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/MarioShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/MarioShot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/PatroolingMovementPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/Star.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/StarBlockImages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/movable/StarBlockImages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Coin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Coin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/LuckyBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/LuckyBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Mushroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/Mushroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/UsedBrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmierung_2/thd/gameobjects/unmovable/UsedBrick.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +101,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mantissa/IdeaProjects/Programmierung_2/Abgabe_5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mantissa/IdeaProjects/Programmierung_2/Abgabe_6&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -190,6 +118,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Abgabe_6" />
       <recent name="$PROJECT_DIR$/Abgabe_5" />
       <recent name="$PROJECT_DIR$/Abgabe_4/src/resources" />
       <recent name="$PROJECT_DIR$/Abgabe_4" />
@@ -200,12 +129,15 @@
       <recent name="$PROJECT_DIR$/]" />
       <recent name="$PROJECT_DIR$/]\" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="thd.gameobjects.base" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
       </set>
     </attachedChunks>
   </component>
@@ -222,6 +154,7 @@
       <workItem from="1777207791905" duration="1234000" />
       <workItem from="1777287394820" duration="27964000" />
       <workItem from="1777922419553" duration="531000" />
+      <workItem from="1778565606844" duration="1993000" />
     </task>
     <servers />
   </component>

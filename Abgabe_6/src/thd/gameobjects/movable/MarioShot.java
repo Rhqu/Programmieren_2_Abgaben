@@ -1,0 +1,58 @@
+package thd.gameobjects.movable;
+
+import thd.game.managers.GamePlayManager;
+import thd.game.utilities.GameView;
+import thd.gameobjects.base.CollidingGameObject;
+import thd.gameobjects.base.GameObject;
+import thd.gameobjects.unmovable.Block;
+
+/**
+ * Represents a shot fired by Mario.
+ */
+public class MarioShot extends CollidingGameObject {
+    private Mario mario;
+    private static final int SHOT_OFFSET_FROM_MARIO = 15;
+
+    /**
+     * Creates a new GameObject.
+     *
+     * @param gameView        GameView to show the game object on.
+     * @param gamePlayManager GamePlayManager to manage game play interactions.
+     * @param mario           the Mario that fired the shot.
+     */
+    MarioShot(GameView gameView, GamePlayManager gamePlayManager, Mario mario) {
+        super(gameView, gamePlayManager);
+        this.mario = mario;
+        this.position.updateCoordinates(mario.getPosition());
+        speedInPixel = 4;
+        size = 25;
+        height = 25;
+        width = 25;
+        hitBoxOffsets(SHOT_OFFSET_FROM_MARIO + 2, SHOT_OFFSET_FROM_MARIO + 2, 0, 0);
+
+    }
+
+    @Override
+    public void updatePosition() {
+        position.right(speedInPixel);
+    }
+
+    @Override
+    public void updateStatus() {
+        if (position.getX() > 1280 || position.getY() > 720 || position.getX() < 0 || position.getY() < 0) {
+            gamePlayManager.destroyGameObject(this);
+        }
+    }
+
+    @Override
+    public void addToCanvas() {
+        gameView.addImageToCanvas("blast.png", position.getX() + SHOT_OFFSET_FROM_MARIO, position.getY() + SHOT_OFFSET_FROM_MARIO, 2, 0);
+    }
+
+    @Override
+    public void reactToCollisionWith(CollidingGameObject other) {
+        if (other instanceof Block) {
+            gamePlayManager.destroyGameObject(this);
+        }
+    }
+}
